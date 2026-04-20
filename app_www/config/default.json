@@ -1,0 +1,10 @@
+{
+  "webSocketRoutePrefix": "wss",
+  "appGlobalMiddlewares": [
+    "queue"
+  ],
+  "methodsAvailable": [
+    "GET",
+    "POST"
+  ]
+}
