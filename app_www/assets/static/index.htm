@@ -1,0 +1,30 @@
+<html lang="en">
+	<head>
+		<style>
+			.grid-container {
+			  display: grid;
+			  /* repeat(3, 1fr) creates 3 columns that each take 1 fraction of space */
+			  grid-template-columns: repeat(3, 1fr); 
+			  gap: 15px; /* Adds space between items */
+			  background: #000;
+			}
+
+			/* Switches to 1 column (stacking) below 992px */
+			@media (max-width: 991px) {
+			  .grid-container {
+			    grid-template-columns: 1fr;
+			  }
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>Ehecoatl "Test" Tenant Kit - Hub</h1>
+		</div>
+		<div class="grid-container">
+			<iframe src="/app1/htm/index.htm"></iframe>
+			<iframe src="/app2/htm/index.htm"></iframe>
+			<iframe src="/app3/htm/index.htm"></iframe>
+		</div>
+	</body>
+</html>
