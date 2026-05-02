@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ehecoatl Test App Demo</title>
+</head>
+<body>
+  <h1>Ehecoatl Test App Demo</h1>
+  <p>This app kit demonstrates static assets, rendered <code>.e.htm</code> templates, route-level i18n, and a live WebSocket ticker.</p>
+
+  <h2>Template Demos</h2>
+  <ul>
+    <li><a href="/{{route.origin.appName}}/htm/template-basic.e.htm">Basic e-render template with i18n merge</a></li>
+    <li><a href="/{{route.origin.appName}}/htm/template-layout.e.htm">Layout template using extends, sections, yields, and include</a></li>
+    <li><a href="/{{route.origin.appName}}/htm/cached.htm">Cached static asset example</a></li>
+  </ul>
+
+  <h2>WebSocket Demo</h2>
+  <p><a href="/{{route.origin.appName}}/htm/ws-live.htm">Open the browser WebSocket live view</a> to connect to the public <code>/{{route.origin.appName}}/ws</code> route and see one tick per second.</p>
+
+  <h2>Action Demos</h2>
+  <ul>
+    <li><a href="/{{route.origin.appName}}/hello">GET /{{route.origin.appName}}/hello</a></li>
+    <li><a href="/{{route.origin.appName}}/session">GET /{{route.origin.appName}}/session</a></li>
+  </ul>
+
+  <h2>Crash Supervisor Demos</h2>
+  <ul>
+    <li><a href="/{{route.origin.appName}}/debug/crash-loop">Crash app with endless loop</a></li>
+    <li><a href="/{{route.origin.appName}}/debug/crash-memory">Crash app by reaching V8 heap limit</a></li>
+  </ul>
+
+  <h2>POST Example</h2>
+  <p>This form submits URL-encoded data to <code>/{{route.origin.appName}}/post-data</code>.</p>
+  <form method="post" action="/{{route.origin.appName}}/post-data">
+    <label>
+      Name
+      <input type="text" name="name" value="Ada Lovelace">
+    </label>
+    <br>
+    <label>
+      Message
+      <input type="text" name="message" value="Hello from the test app demo">
+    </label>
+    <br>
+    <button type="submit">Send POST Request</button>
+  </form>
+</body>
+</html>

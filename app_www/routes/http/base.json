@@ -1,5 +1,5 @@
 {
 	"/":{
-		"pointsTo": "static/index.htm"
+		"pointsTo": "asset > static/index.htm"
 	}
 }

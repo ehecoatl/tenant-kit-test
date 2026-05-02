@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "version": 1
+  },
+  "tenantHost": "test1.ehecoatl.com.br",
+  "windowStartedAt": "2026-05-02T20:28:34.132Z",
+  "lastUpdatedAt": "2026-05-02T20:28:34.132Z",
+  "totals": {
+    "requests": 1,
+    "byStatusClass": {
+      "2xx": 1,
+      "3xx": 0,
+      "4xx": 0,
+      "5xx": 0,
+      "other": 0
+    }
+  },
+  "latency": {
+    "byProfile": {
+      "staticAsset": 1
+    },
+    "byClass": {
+      "fast": 1
+    },
+    "duration": {
+      "count": 1,
+      "totalMs": 21,
+      "avgMs": 21,
+      "minMs": 21,
+      "maxMs": 21
+    }
+  },
+  "quality": {
+    "compliance": null
+  }
+}

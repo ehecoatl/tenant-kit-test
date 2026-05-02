@@ -8,7 +8,7 @@ module.exports = {
         'Cache-Control': `no-cache`
       },
       render: {
-        template: `static/htm/action-template.e.htm`,
+        template: `templates/action-template.e.htm`,
         i18n: [
           `assets/i18n/action-template.override.json`
         ],

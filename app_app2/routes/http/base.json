@@ -6,14 +6,14 @@
     ]
   },
   "/htm/index.htm": {
-    "pointsTo": "asset > static/htm/index.htm",
+    "pointsTo": "asset > templates/index.e.htm",
     "cache": "no-cache",
     "methods": [
       "GET"
     ]
   },
   "/htm/template-basic.e.htm": {
-    "pointsTo": "asset > static/htm/template-basic.e.htm",
+    "pointsTo": "asset > templates/template-basic.e.htm",
     "cache": "no-cache",
     "methods": [
       "GET"
@@ -24,7 +24,7 @@
     ]
   },
   "/htm/template-layout.e.htm": {
-    "pointsTo": "asset > static/htm/template-layout.e.htm",
+    "pointsTo": "asset > templates/template-layout.e.htm",
     "cache": "no-cache",
     "methods": [
       "GET"
@@ -35,7 +35,7 @@
     ]
   },
   "/htm/ws-live.htm": {
-    "pointsTo": "asset > static/htm/ws-live.htm",
+    "pointsTo": "asset > templates/ws-live.e.htm",
     "cache": "no-cache",
     "methods": [
       "GET"
@@ -237,6 +237,20 @@
     ],
     "i18n": [
       "assets/i18n/shared/common.json"
+    ]
+  },
+  "/debug/crash-loop": {
+    "pointsTo": "run > crash-loop@index",
+    "cache": "no-cache",
+    "methods": [
+      "GET"
+    ]
+  },
+  "/debug/crash-memory": {
+    "pointsTo": "run > crash-memory@index",
+    "cache": "no-cache",
+    "methods": [
+      "GET"
     ]
   },
   "/{action}": {

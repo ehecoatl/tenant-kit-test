@@ -76,7 +76,7 @@ The action returns:
 {
   status: 200,
   render: {
-    template: `static/htm/action-template.e.htm`,
+    template: `templates/action-template.e.htm`,
     view: {
       title: `Action Template Response`
     },
