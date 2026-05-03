@@ -3,7 +3,7 @@
   "certbotEmail": null,
   "appRoutingMode": "path",
   "defaultAppName": "www",
-  "ehecoatlVersion": "0.0.7-alpha",
+  "ehecoatlVersion": "0.1.x",
   "tenantId": "7vhdq1j8gk4d",
   "tenantDomain": "test1.ehecoatl.com.br",
   "source": {}
