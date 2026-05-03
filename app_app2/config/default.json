@@ -1,5 +1,5 @@
 {
-  "ehecoatlVersion": "0.0.7-alpha",
+  "ehecoatlVersion": "0.1.x",
   "webSocketRoutePrefix": "wss",
   "appGlobalMiddlewares": [
     "queue"
